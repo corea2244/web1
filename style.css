@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+header.index { padding: 0 30px 30px;}
+header {padding: 0 30px 55px; background: linear-gradient(to right, #042e6f 50%, #042e6f, #f2f2f2, #f2f2f2 50%);}
+header .visual img {width:100%;}
+header .logo img {width:30%;}
+header h1 {position: absolute; left: 30px; top: 0; z-index: 31;}
+header #lnb {position: absolute; left:0; top: 0; z-index: 30; padding: 0 60px 0 270px; width: 100%; box-sizing: border-box;}
+header #lnb nav {position: relative; z-index: 30; border-bottom: 1px solid rgba(255,255,255,0.5); text-align: center; font-size: 0;}
+header #lnb nav > ul {display: inline-block; overflow: hidden; height: 47px;}
+header #lnb nav + div {position: absolute; left: 0; top: 0; z-index: 29; width: 100%; height: 0; background: #042e6f; opacity: 0; transition: all 0.5s;}
+header #lnb nav:hover + div {height: 270px; opacity: 1;}
+header #lnb nav > ul:hover {overflow: visible;}
+header #lnb nav > ul:hover ul {opacity: 1;}
+header #lnb nav > ul > li {display: inline-block; position: relative;}
+header #lnb nav > ul > li > a {display: block; position: relative; width: 160px; height: 47px; font-size: 18px; color: #fff; line-height: 47px;}
+header #lnb nav > ul > li > a:after {content: ""; position: absolute; left: 50%; bottom: -1px; width: 0; height: 2px; background: #fff; transition: all 0.5s;}
+header #lnb nav > ul > li > a:hover:after {left: 0; width:100%;}
+header #lnb nav > ul ul {position: absolute; width: 100%; padding: 22px 0 0; text-align: center; opacity: 0; transition: all 0.5s;}
+header #lnb nav > ul ul li {line-height: 39px;}
+header #lnb nav > ul ul a {font-size: 14px; position: relative; color: #fff; transition: all 0.5s;}
+header #lnb nav > ul ul a:hover {color: #2acef1;}
+header #lnb nav > ul ul a:after {content: ""; position: absolute; left: 50%; bottom: -7px; width: 0; height: 2px; background: #2acef1; transition: all 0.5s;}
+header #lnb nav > ul ul a:hover:after {left: 0; width: 100%;}
+
+footer {background: #272f3c;}
+footer > div {position: relative; width: 1175px; padding: 45px 0; margin: 0 auto;}
+footer > div > a {position: absolute; right: 0; top: -25px; width: 39px; height: 49px; background: #22a5d5; color:#fff; text-align: center; padding: 5px 0 0; line-height: 39px;}
+footer > div .left {float: left; line-height: 100%;}
+footer > div .left div a {margin: 0 10px 0 0; font-size: 13px; color: #fff;}
+footer > div .left p {padding: 13px 0 0; line-height: 21px; font-size: 13px; color: #747b85;}
+footer > div .left p span {padding: 0 13px 0 0;}
+footer > div .right {float: right; padding: 0 100px 0 20px;}
+footer > div .right a {color: #747b85;}
+footer > div .right a span {padding: 0 10px 0 0;}
+footer > div .right a img {width: 40px; height: 40px; text-align: left; border-radius: 8px;}

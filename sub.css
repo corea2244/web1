@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.bread_crums {padding: 0 0 0 210px; margin-top: -55px;}
+.bread_crums > div:after {content: ""; display: block; clear: both;}
+.bread_crums > div {border-bottom: 1px solid #dfdfdf; background: #fff;}
+.bread_crums > div > * {float: left;}
+.bread_crums > div > a img {display: block; width: 73px; height: 55px; text-align: center; line-height: 54px; font-size: 15px;}
+.bread_crums div > div { position: relative; border-left: 1px solid #dfdfdf;}
+.bread_crums div > div:hover ul {display: block;}
+.bread_crums div > div:last-child {border-right: 1px solid #dfdfdf;}
+.bread_crums div > div > a {display: block; width: 239px; height: 54px; font-size: 15px; color: #333; text-indent: 30px; background: url("../Dreamshake/downarrowbutton.png") no-repeat right 20px center; line-height: 55px;}
+.bread_crums ul {display: none; position: absolute; z-index: 10; width: 241px; left: -1px; box-sizing: border-box; border: 1px solid #dfdfdf; padding: 10px 0; background: #fff;}
+.bread_crums ul a {display: block; height: 35px; text-indent: 26px; line-height: 35px; font-size: 15px; color: #333;}
+.bread_crums ul a:hover {color: #808080;}
+
+#container {width: 1100px; margin: 0 auto;}
+#container #snb {float: left; padding: 30px 29px 0 0; width: 230px;}
+#container #snb h2 {padding: 49px 0 0; height: 91px; background: #333f52; font-size: 21px; color: #fff; font-weight: normal; text-align: center;}
+#container #snb h2 span {display: block; padding: 13px 0 0; color: #8f939b; font-size: 12px;}
+#container #snb li a {display: block; position: relative; height: 53px; border-bottom: 1px solid #8f939b; line-height: 53px; text-indent: 25px; color: #303030;}
+#container #snb li a:hover {color: #1354bb; text-indent: 61px; font-size: 15px;}
+#container #snb li a:hover:after {content: ""; display: block; position: absolute; left: 0; top: 0; width: 45px; height: 54px; background: url(../Dreamshake/sub_downarrow_button.png) no-repeat center #1354bb;}
+#container #contents {float: left; padding: 65px 0 79px 60px; width: 780px; border-left: 1px solid #e0e0e0;}
+#container #contents .h2 {font-size: 34px; color: #000;}
+#container #contents .greetings {padding: 76px 0 0;}
+#container #contents .greetings .greeting_mention { display: block; float: right; margin-left: -10px; padding: 150px 50px 0 0; font-size: 15px; line-height: 100px;}
+#container #contents .greetings .greeting_mention #hello {font-size: 25px; color: #0000ff; letter-spacing: 5px;}
+#container #contents .greetings .greeting_mention #myname {font-size: 20px; font-weight: bold; color: black;}
+#container #contents .greetings .non_image_greeting {display: block; margin: 30px 0 0 0; font-size: 15px;}
+#container #contents .greetings .section_ceo {display: inline-block; width: 800px; height: 550px;}
+#container #contents .greetings .section_ceo #picture { display: inline-block;}
+#container #contents .greetings .section_ceo .ceo_chart { position: relative; top: 140px; display: inline-block; margin: 0 33px 0 33px; width: 370px; height: 350px; background: #CCFFFF; border-radius: 15px;}
+#container #contents .greetings .section_ceo .ceo_chart #chart_content {margin-left: 40px;}
+#container #contents .greetings .section_ceo .ceo_chart #chart_content #char_middle_content {margin-left: 10px;}
+#container #contents .greetings .section_ceo .ceo_chart .chart_title {display: block; margin: 20px 0 20px 35px; width: 300px; height: 30px; background: #0000ff; border-radius: 20px;color: #fff; text-align: center; line-height: 30px; font-weight: normal; font-size: 14px;}
+#container #contents .greetings .section_ceo .ceo_chart .chart_middle_title {line-height: 30px; font-size: 14px; font-weight: bold; color: #000000;}
+#container #contents .greetings .section_cto { width: 800px; height: 550px; }
+#container #contents .greetings .section_cto #picture {display: inline-block;}
+#container #contents .greetings .section_cto .cto_chart {position: relative; top: 80px; display: inline-block; margin: 0 33px 0 33px; width: 370px; height: 350px; background: #99CCCC; border-radius: 15px;}
+#container #contents .greetings .section_cto .cto_chart #chart_content {margin-left: 40px;}
+#container #contents .greetings .section_cto .cto_chart #chart_content #char_middle_content {margin-left: 10px;}
+#container #contents .greetings .section_cto .cto_chart .chart_title {display: block; margin: 20px 0 20px 0; width: 300px; height: 30px; background: #0000ff; border-radius: 20px;color: #fff; text-align: center; line-height: 30px; font-weight: normal; font-size: 14px;}
+#container #contents .greetings .section_cto .cto_chart .chart_middle_title {line-height: 30px; font-size: 14px; font-weight: bold; color: #000000;}
+#container #contents .greetings .section_employee { width: 800px; height: 550px;}
+#container #contents .greetings .section_employee .left_chart {position: relative; top: 45px; display: inline-block; width: 350px; height: 400px; background: #CCFFFF; border-radius: 15px;}
+#container #contents .greetings .section_employee .left_chart .chart_title {display: block; margin: 20px 0 20px 25px; width: 300px; height: 30px; background: #0000ff; border-radius: 20px;color: #fff; text-align: center; line-height: 30px; font-weight: normal; font-size: 14px;}
+#container #contents .greetings .section_employee .left_chart .chart_middle_title {margin-left: 50px; line-height: 30px; font-size: 14px; font-weight: bold; color: #000000;}
+#container #contents .greetings .section_employee .left_chart #char_middle_content {margin-left: 60px;}
+#container #contents .greetings .section_employee .right_chart {position: relative; top: 50px; left: 60px; display: inline-block; width: 350px; height: 400px; background: #99CCCC; border-radius: 15px;}
+#container #contents .greetings .section_employee .right_chart .chart_title {display: block; margin: 20px 0 20px 25px; width: 300px; height: 30px; background: #0000ff; border-radius: 20px;color: #fff; text-align: center; line-height: 30px; font-weight: normal; font-size: 14px;}
+#container #contents .greetings .section_employee .right_chart .chart_middle_title {margin-left: 50px; line-height: 30px; font-size: 14px; font-weight: bold; color: #000000;}
+#container #contents .greetings .section_employee .right_chart #char_middle_content {margin-left: 60px;}
